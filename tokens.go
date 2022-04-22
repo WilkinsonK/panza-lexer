@@ -548,5 +548,6 @@ func loadTokens() {
 		}
 		tokenKinds.Add(tokenName(name), tokenSignature(seq))
 	}
+
 	file.Close()
 }
